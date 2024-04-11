@@ -12,7 +12,7 @@ def local_css(file_name):
 # Memanggil fungsi untuk menyematkan CSS
 local_css("style.css")
 
-URL = 'D:\handphone\Data Cleaned (10).csv'
+URL = 'Data Cleaned (10).csv'
 df = pd.read_csv(URL)
 
 # Data referensi ID brand dan merk brand
