@@ -1,0 +1,63 @@
+/* CSS untuk aplikasi Streamlit */
+body {
+    background-color: #f0f8ff; /* Warna biru muda */
+}
+
+/* Judul */
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #333;
+    margin-bottom: 30px;
+}
+
+/* Plot */
+.streamlit-plot {
+    margin-bottom: 30px;
+}
+
+/* Tombol */
+.stButton>button {
+    background-color: #ffb6c1; /* Warna biru tua */
+    color: #ffffff; /* Warna putih */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.stButton>button:hover {
+    background-color: #ffb6c1; /* Warna biru langit */
+}
+
+/* Input */
+.streamlit-widgets input[type="number"], .streamlit-widgets input[type="text"] {
+    border: 2px solid #ffb6c1; /* Warna biru tua */
+    border-radius: 4px;
+    margin: 8px 0;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+/* Dropdown */
+.streamlit-selectbox select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #4682b4; /* Warna biru tua */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Teks */
+.streamlit-text-container {
+    margin-bottom: 20px;
+}
